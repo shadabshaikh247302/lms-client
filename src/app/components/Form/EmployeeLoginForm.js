@@ -1,7 +1,7 @@
 "use client";
 import { useContext, useState, useEffect, useRef } from "react";
 import React from "react";
-// import RoleDropdown from "../Dropdown/RoleDropdown";
+import RoleDropdown from "../Dropdown/RoleDropdown";
 import toast from "react-hot-toast";
 import { UserContext } from "@/app/context/UserContext";
 import { useRouter } from "next/navigation";
@@ -143,12 +143,12 @@ export default function EmployeeLoginForm() {
             </label>
           </div>
         </div>
-{/* 
+
         {userType === "faculty" && (
           <div className="" style={{color:'white'}}>
             <RoleDropdown formData={UserData.Role} handleChange={handleChange} />
           </div>
-        )} */}
+        )}
 
         <button
           style={{ fontWeight: "600px" }}
