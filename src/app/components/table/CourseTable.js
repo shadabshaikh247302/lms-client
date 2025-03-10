@@ -5,8 +5,8 @@ import EditButton from "../Button/EditButton";
 import DeleteButton from "../Button/DeleteButton";
 import { deleteCourse, updateCourse } from "@/app/api/courseApi";
 import toast from "react-hot-toast";
-import { MainAdminContext } from "../../../../../../techstack-lms/src/app/context/AdminContext";
-import { CourseContext } from "../../../../../../techstack-lms/src/app/context/CourseContext";
+import { MainAdminContext } from "../../context/AdminContext";
+import { CourseContext } from "../../context/CourseContext";
 
 export default function CourseTable({fetchCourses}) {
   const {adminState} = useContext(MainAdminContext)
@@ -23,7 +23,6 @@ export default function CourseTable({fetchCourses}) {
         if(data){
           fetchCourses();
         }
-      
       setEditCourse(null); // Close the modal after saving
       console.log("Course updated successfully!");
     } catch (error) {

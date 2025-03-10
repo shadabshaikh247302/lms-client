@@ -7,10 +7,10 @@ import { getAllEmp } from "@/app/api/employeeApi";
 import EditButton from "../Button/EditButton";
 import DeleteButton from "../Button/DeleteButton";
 
-import { EmployeeContext } from "../../../../../../techstack-lms/src/app/context/EmployeeContext";
-import { MainAdminContext } from "../../../../../../techstack-lms/src/app/context/AdminContext";
+import { EmployeeContext } from "../../context/EmployeeContext";
+import { MainAdminContext } from "../../context/AdminContext";
 import { UserContext } from "@/app/context/UserContext";
-import { RoleContext } from "../../../../../../techstack-lms/src/app/context/RoleContext";
+import { RoleContext } from "../../context/RoleContext";
 import toast from "react-hot-toast";
 
 export default function RoleTable() {

@@ -7,8 +7,8 @@ import EmployeeStatusDropdown from "../Dropdown/EmployeeStatusDropdown";
 import Link from "next/link";
 import { getAllEmp, updateEmp, deleteEmp } from "@/app/api/employeeApi";
 import toast from "react-hot-toast";
-import { MainAdminContext } from "../../../../../../techstack-lms/src/app/context/AdminContext";
-import { EmployeeContext } from "../../../../../../techstack-lms/src/app/context/EmployeeContext";
+import { MainAdminContext } from "../../context/AdminContext";
+import { EmployeeContext } from "../../context/EmployeeContext";
 const EmployeeTable = ({fetchEmployee, onClose}) => {
   const { adminState } = useContext(MainAdminContext);
   const [employees, setEmployees] = useState([]);

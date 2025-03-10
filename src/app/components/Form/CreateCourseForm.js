@@ -3,7 +3,7 @@ import React, { useContext, useState, useEffect } from 'react';
 import { createCourse } from '@/app/api/courseApi';
 import toast from 'react-hot-toast';
 import { UserContext } from '@/app/context/UserContext';
-import { MainAdminContext } from '../../../../../../techstack-lms/src/app/context/AdminContext';
+import { MainAdminContext } from '../../context/AdminContext';
 // import EmployeeDropdown from '../Dropdown/EmployeeDropdown';
 
 export default function CreateCourseForm() {
