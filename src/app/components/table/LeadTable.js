@@ -3,10 +3,10 @@ import CourseDropdown from "../Dropdown/CourseDropdown";
 import BooleanButton from "../Button/BooleanButton";
 import ToggleDemoButton from "../Button/ToggleDemoButton";
 import LeadStatusDropdown from "../Dropdown/LeadStatusDropdown";
-import { LeadContext } from "../../../../../../techstack-lms/src/app/context/LeadContext";
+import { LeadContext } from "../../context/LeadContext";
 import { UserContext } from "@/app/context/UserContext";
-import { MainAdminContext } from "../../../../../../techstack-lms/src/app/context/AdminContext";
-import { StudentContext } from "../../../../../../techstack-lms/src/app/context/StudentContext";
+import { MainAdminContext } from "../../context/AdminContext";
+import { StudentContext } from "../../context/studentContext";
 import { getAllLead, updateLead } from "@/app/api/leadApi";
 import RemarkDropdown from "../Dropdown/RemarkDropdown";
 

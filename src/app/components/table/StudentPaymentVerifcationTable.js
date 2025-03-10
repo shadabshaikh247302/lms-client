@@ -1,8 +1,8 @@
 "use client";
 import React, { useContext, useState } from "react";
-import { MainAdminContext } from "../../../../../../techstack-lms/src/app/context/AdminContext";
-import { PaymentContext } from "../../../../../../techstack-lms/src/app/context/PaymentContext";
-import { StudentContext } from "../../../../../../techstack-lms/src/app/context/StudentContext";
+import { MainAdminContext } from "../../context/AdminContext";
+import { PaymentContext } from "../../context/PaymentContext";
+import { StudentContext } from "../../context/studentContext";
 import { UserContext } from "@/app/context/UserContext";
 import { updatePayment } from "@/app/api/paymentApi";
 import { getAllStd } from "@/app/api/studentApi";

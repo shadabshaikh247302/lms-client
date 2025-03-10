@@ -3,7 +3,7 @@ import { useState, useEffect, useContext } from "react";
 import React from "react";
 import toast from "react-hot-toast";
 import bcrypt from "bcryptjs";
-import { MainAdminContext } from "../../../../../../techstack-lms/src/app/context/AdminContext";
+import { MainAdminContext } from "../../context/AdminContext";
 import { useRouter } from "next/navigation";
 import OtpInput from "react-otp-input";
 

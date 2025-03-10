@@ -2,7 +2,7 @@ import { getAllEmp } from "@/app/api/employeeApi";
 import React, { useState, useEffect, useContext } from "react";
 import { updateLead } from "@/app/api/leadApi";
 import { UserContext } from "@/app/context/UserContext";
-import { MainAdminContext } from "../../../../../../techstack-lms/src/app/context/AdminContext";
+import { MainAdminContext } from "../../context/AdminContext";
 
 const ToggleDemoButton = ({ id, index, demoBy, disable, isDemonstrated, onToggle }) => {
   const [showDropdown, setShowDropdown] = useState(isDemonstrated); // Show dropdown only if demonstrated is true

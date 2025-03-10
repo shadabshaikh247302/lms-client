@@ -1,6 +1,6 @@
 "use client";
 import { loginStd } from "@/app/api/studentApi";
-import { StudentLoginContext } from "../../../../../../techstack-lms/src/app/context/StudentLoginContext";
+import { StudentLoginContext } from "../../context/StudentLoginContext";
 import { useRouter } from "next/navigation";
 import { useContext, useEffect, useState } from "react";
 import React from "react";

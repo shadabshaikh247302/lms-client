@@ -1,7 +1,7 @@
 "use client";
 import { useContext, useState } from "react";
 import { UserContext } from "@/app/context/UserContext";
-import { MainAdminContext } from "../../../../../../techstack-lms/src/app/context/AdminContext";
+import { MainAdminContext } from "../../context/AdminContext";
 import toast from "react-hot-toast";
 import { createRemark } from "@/app/api/remarkApi";
 

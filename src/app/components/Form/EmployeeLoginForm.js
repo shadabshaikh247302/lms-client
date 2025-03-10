@@ -101,7 +101,7 @@ export default function EmployeeLoginForm() {
             id="email"
             type="email"
             name="Email"
-            value={UserData.Email.toLowerCase()}
+            value={UserData.Email}
             className="form-control"
             placeholder="Enter your email"
             required

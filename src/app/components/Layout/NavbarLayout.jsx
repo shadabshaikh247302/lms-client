@@ -3,8 +3,8 @@ import React, { useContext} from "react";
 
 import toast from "react-hot-toast";
 import { UserContext } from "@/app/context/UserContext";
-import { MainAdminContext } from "../../../../../../techstack-lms/src/app/context/AdminContext";
-import { StudentLoginContext } from "../../../../../../techstack-lms/src/app/context/StudentLoginContext";
+import { MainAdminContext } from "../../context/AdminContext";
+import { StudentLoginContext } from "../../context/StudentLoginContext";
 import { useRouter } from "next/navigation";
 
 

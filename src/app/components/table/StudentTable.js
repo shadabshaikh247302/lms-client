@@ -6,8 +6,8 @@ import CourseDropdown from "../Dropdown/CourseDropdown";
 import EmiDrowdown from "../Dropdown/EmiDropdownModal";
 
 import { UserContext } from "@/app/context/UserContext";
-import { StudentContext } from "../../../../../../techstack-lms/src/app/context/StudentContext";
-import { MainAdminContext } from "../../../../../../techstack-lms/src/app/context/AdminContext";
+import { StudentContext } from "../../context/studentContext";
+import { MainAdminContext } from "../../context/AdminContext";
 import RemarkDropdown from "../Dropdown/RemarkDropdown";
 import { getAllStd, updateStd } from "@/app/api/studentApi";
 

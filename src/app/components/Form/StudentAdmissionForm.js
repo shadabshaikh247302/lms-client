@@ -6,7 +6,7 @@ import { getAllPayment } from '@/app/api/paymentApi';
 import { getEmi } from '@/app/api/emiApi';
 import toast from 'react-hot-toast';
 import { UserContext } from '@/app/context/UserContext';
-import { MainAdminContext } from '../../../../../../techstack-lms/src/app/context/AdminContext';
+import { MainAdminContext } from '../../context/AdminContext';
 import PaymentSectionForm from './PaymentSectionForm';
 
 export default function StudentAdmissionForm({ lead, index, updateLeadData, onClose }) {

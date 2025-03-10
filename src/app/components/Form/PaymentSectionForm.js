@@ -2,7 +2,7 @@
 import { useContext, useState } from "react";
 import { createPayment } from "@/app/api/paymentApi";
 import { UserContext } from "@/app/context/UserContext";
-import { MainAdminContext } from "../../../../../../techstack-lms/src/app/context/AdminContext";
+import { MainAdminContext } from "../../context/AdminContext";
 import toast from "react-hot-toast";
 
 export default function PaymentSectionForm({ FromStd, FromLead, CourseFee }) {

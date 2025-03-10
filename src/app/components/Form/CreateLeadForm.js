@@ -3,8 +3,8 @@ import CourseDropdown from '../Dropdown/CourseDropdown';
 import { createLead } from '@/app/api/leadApi';
 import toast from 'react-hot-toast';
 import { UserContext } from '@/app/context/UserContext';
-import { MainAdminContext } from '../../../../../../techstack-lms/src/app/context/AdminContext';
-import { LeadContext } from '../../../../../../techstack-lms/src/app/context/LeadContext';
+import { MainAdminContext } from '../../context/AdminContext';
+import { LeadContext } from '../../context/LeadContext';
 export default function CreateLeadForm({fetchLead, onClose}) {
   const { state } = useContext(UserContext)
   const { adminState } = useContext(MainAdminContext)
