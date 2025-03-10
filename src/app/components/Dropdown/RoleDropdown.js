@@ -83,7 +83,7 @@ export default function RoleDropdown({ formData, handleChange }) {
         // disabled={loading}
       >
         <option value="" disabled>
-          Select a role
+          Select a rol
         </option>
         {Array.isArray(roleData) &&
           roleData?.map((role) => (
